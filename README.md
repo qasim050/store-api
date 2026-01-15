@@ -31,7 +31,7 @@ Provides product management with filtering, sorting, pagination, and authenticat
 - dotenv
 
 
-#📌 API Endpoints (Examples)
+# 📌 API Endpoints (Examples)
 - Get All Products
 - GET /api/v1/products
 
