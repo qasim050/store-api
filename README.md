@@ -1,75 +1,75 @@
-#🛒 Store API
+# 🛒 Store API
 
 RESTful Store API built with Node.js, Express, and MongoDB.
 Provides product management with filtering, sorting, pagination, and authentication support.
 
-##✨ Features
+## ✨ Features
 
-CRUD operations for products
+- CRUD operations for products
 
-Advanced filtering (price, rating, company, category)
+- Advanced filtering (price, rating, company, category)
 
-Sorting & pagination
+- Sorting & pagination
 
 
-Protected routes
+- Protected routes
 
-MongoDB & Mongoose
+- MongoDB & Mongoose
 
-Clean project structure
+- Clean project structure
 
 ##🛠 Tech Stack
 
-Node.js
+- Node.js
 
-Express.js
+- Express.js
 
-MongoDB
+- MongoDB
 
-Mongoose
+- Mongoose
 
-dotenv
+- dotenv
 
 
 #📌 API Endpoints (Examples)
-Get All Products
-GET /api/v1/products
+- Get All Products
+- GET /api/v1/products
 
-Filter & Sort
-GET /api/v1/products?company=ikea&sort=price&numericFilters=price>40
+- Filter & Sort
+- GET /api/v1/products?company=ikea&sort=price&numericFilters=price>40
 
-Create Product (Protected)
-POST /api/v1/products
-Authorization: Bearer <token>
+- Create Product (Protected)
+- POST /api/v1/products
+- Authorization: Bearer <token>
 
-🧪 Example Query Params
+# 🧪 Example Query Params
 
-sort=price,-rating
+- sort=price,-rating
 
-fields=name,price
+- fields=name,price
 
-page=1&limit=10
+- page=1&limit=10
 
-numericFilters=price>50,rating>=4
+- numericFilters=price>50,rating>=4
 
-🚀 Future Improvements
+# 🚀 Future Improvements
 
-User roles (Admin / User)
+- User roles (Admin / User)
 
-Order & Cart system
+- Order & Cart system
 
-Swagger API Documentation
+- Swagger API Documentation
 
-Unit & Integration tests
+- Unit & Integration tests
 
-👨‍💻 Author
+# 👨‍💻 Author
 
-Qasim Salah
-Backend Developer
+- Qasim Salah
+- Backend Developer
 
-Node.js(express) & REST APIs
+- Node.js(express) & REST APIs
 
-MongoDB & SQL
+- MongoDB & SQL
 # Installation
 ```bash
 git clone https://github.com/qasim050/jwt-basic.git
